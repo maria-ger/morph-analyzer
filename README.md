@@ -1,11 +1,6 @@
-Программа требует установки следующих библиотек:
-   * [razdel](https://natasha.github.io/razdel/)
-   * [nltk](https://www.nltk.org/)
-   * [string](https://docs.python.org/3/library/string.html)
-   * [pymorphy3](https://pypi.org/project/pymorphy3/) (или pymorphy2)
-   * [matplotlib](https://pypi.org/project/matplotlib/)
-    
-# Описание    
+# Морфологический анализ текста
+
+## Описание    
 Пользователь вводит имя файла с текстом, и программа выводит такие характеристики как число словоупотреблений, длин слов, частоту слов и лексем, проценты частей речи, падежей имен существительных и прилагательных, времен, чисел и лиц глаголов. 
 Для некоторых показателей строятся диаграммы. (Открывается окно matplotlib, после закрытия которого программа завершается.) 
 
@@ -22,9 +17,16 @@
 время глаголов. В научных текстах больше существительных в
 родительном падеже (это видно на результате для файла physics.txt).
 
-# Запуск
+## Запуск
+Программа требует установки следующих библиотек:
+   * [razdel](https://natasha.github.io/razdel/)
+   * [nltk](https://www.nltk.org/)
+   * [string](https://docs.python.org/3/library/string.html)
+   * [pymorphy3](https://pypi.org/project/pymorphy3/) (или pymorphy2)
+   * [matplotlib](https://pypi.org/project/matplotlib/)
+    
 ```
 python morph.py
 ```
-# Примеры входных данных
+## Примеры входных данных
 Тестовые файлы: test.txt, chekhov.txt, physics.txt, article.txt, civilcode.txt, paustovskiy.txt, cosmos.txt
